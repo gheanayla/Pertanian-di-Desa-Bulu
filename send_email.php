@@ -7,7 +7,7 @@ if ($data) {
     $email = htmlspecialchars($data['email']);
     $message = htmlspecialchars($data['message']);
 
-    $to = 'youremail@example.com'; 
+    $to = 'gheanayla535@gmail.com'; 
     $subject = 'Pesan Kontak dari ' . $name;
     $body = "Nama: $name\nEmail: $email\nPesan:\n$message";
     $headers = "From: $email";
